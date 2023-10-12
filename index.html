@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="eternals.js" defer></script>
+    <style>
+      .character-img {
+          max-width: 100px;
+          max-height: 100px;
+      }
+  </style>
+</head>
+<body>
+    <h1>Eternals Superheroes</h1>
+  <form onsubmit="searchCharacters(); return false;">
+    <label for="searchInput">Search by Attribute:</label>
+    <input type="text" id="searchInput" placeholder="Enter attribute...">
+    <input type="submit" value="Search">
+  </form>
+  <ul id="characterList"></ul>
+    
+</body>
+</html>
